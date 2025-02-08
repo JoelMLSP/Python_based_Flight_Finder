@@ -61,9 +61,11 @@ new UI ->
 
 ![image](https://github.com/user-attachments/assets/63e16ed6-c18a-428c-8a58-abcb3d186084)
 
-
+example of phone notification:
 ![IMG_9729](https://github.com/user-attachments/assets/76ec0a63-9b8a-47d4-b4ad-be7d904620b6)
 
+notification example from whatsapp:
+![IMG_9733](https://github.com/user-attachments/assets/c3a9ea70-edaf-4bcf-a64f-a9fe0075ed1c)
 
 ## Contributing
 Feel free to submit pull requests to improve functionality or fix issues. I always appricate help :)
