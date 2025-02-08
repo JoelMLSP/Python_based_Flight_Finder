@@ -47,6 +47,10 @@ To start the flight deal finder, run:
 ```bash
 python flight_ui.py
 ```
+or (if you want to deal with everything in the console)
+```bash
+python main.py
+```
 
 ## Usage Guide
 1. Enter your trip details (start date, duration, months to search ahead).
