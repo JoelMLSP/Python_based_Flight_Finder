@@ -123,17 +123,15 @@ def search_flights():
         logging.error(f"Error during flight search: {e}")
         messagebox.showerror("Error", f"An error occurred: {e}")
 
-# Initialize Tkinter window
+
 root = tk.Tk()
 root.title("Flight Deals Finder")
 root.geometry("500x400")
 root.configure(bg="#f0f8ff")
 
-# Add header label
 header = tk.Label(root, text="Flight Deals Finder", font=("Helvetica", 16, "bold"), bg="#f0f8ff", fg="#333")
 header.pack(pady=10)
 
-# Labels and Entry Fields
 frame = tk.Frame(root, bg="#f0f8ff")
 frame.pack(pady=10)
 
@@ -152,9 +150,7 @@ search_months_label.grid(row=2, column=0, sticky="e", padx=5, pady=5)
 entry_search_months = ttk.Entry(frame, width=20)
 entry_search_months.grid(row=2, column=1, pady=5)
 
-# Search Button
 btn_search = ttk.Button(root, text="Search Flights", command=search_flights)
 btn_search.pack(pady=20)
 
-# Run Tkinter main loop
 root.mainloop()
