@@ -51,7 +51,7 @@ def main():
 
     print (start_date)
 
-
+    # Store best prices
     best_prices = {"flights": []}
 
 
